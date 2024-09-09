@@ -18,8 +18,8 @@ pip install -e .[dev]
 
 ### Download Link
 
-* Hazy-DIOR: [https://pan.quark.cn/s/cf275400e7ca](https://pan.quark.cn/s/cf275400e7ca) (password: GMwk)
-* Hazy-LoveDA: [https://pan.quark.cn/s/18ed1fe0e2ce](https://pan.quark.cn/s/18ed1fe0e2ce) (password: jCDW)
+* Hazy-DIOR: [https://huggingface.co/datasets/SmileShaun/Hazy-DIOR](https://huggingface.co/datasets/SmileShaun/Hazy-DIOR/tree/main)
+* Hazy-LoveDA: [https://huggingface.co/datasets/SmileShaun/Hazy-LoveDA](https://huggingface.co/datasets/SmileShaun/Hazy-LoveDA/tree/main)
 
 ### Dataset folder structure
 
