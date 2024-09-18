@@ -1,5 +1,10 @@
 <div align="center">
 <h1>Proxy and Cross-Stripes Integration Transformer for Remote Sensing Image Dehazing</h3>
+
+
+[[Paper]](https://ieeexplore.ieee.org/document/10677537)
+[[Hazy-DIOR Dataset]](https://huggingface.co/datasets/SmileShaun/Hazy-DIOR/tree/main)
+[[Hazy-LoveDA Dataset]](https://huggingface.co/datasets/SmileShaun/Hazy-LoveDA/tree/main)
 </div>
 
 This repo contains our proposed RS image dehazing model PCSformer and the two proposed benchmarks, namely Hazy-DIOR and Hazy-LoveDA.
@@ -75,3 +80,12 @@ pip install -e .[dev]
 ## Citation
 
 If you use this codebase or the proposed benchmarks, please kindly cite our work:
+```
+@article{zhang2024proxy,
+  title={Proxy and Cross-Stripes Integration Transformer for Remote Sensing Image Dehazing},
+  author={Zhang, Xiaozhe and Xie, Fengying and Ding, Haidong and Yan, Shaocheng and Shi, Zhenwei},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2024},
+  publisher={IEEE}
+}
+```
