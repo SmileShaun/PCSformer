@@ -72,7 +72,7 @@ class PairLoader(Dataset):
 		# read image, and scale [0, 1] to [-1, 1]
 		img_name = self.img_names[idx]
 		source_img = read_img(os.path.join(self.root_dir, 'hazy', img_name)) * 2 - 1
-		target_img = read_img(os.path.join(self.root_dir, 'GT', img_name)) * 2 - 1
+		target_img = read_img(os.path.join(self.root_dir, 'gt', img_name)) * 2 - 1
   
 
 		if self.mode == 'train':

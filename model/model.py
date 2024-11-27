@@ -177,4 +177,4 @@ class PCSformer(nn.Module):
         x = K * x - B + x
         coarseDehazedImage = x[:, :, :H, :W]
         refinedDehazedImage = self.RefineNetwork(coarseDehazedImage)
-        return refinedDehazedImage
+        return coarseDehazedImage, refinedDehazedImage

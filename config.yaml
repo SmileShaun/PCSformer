@@ -13,4 +13,21 @@ model:
   drop_path_rate: 0.
   num_refinement_blocks: 5
   refinement_block_dim: 48
-  
+
+train:
+  train_batch_size: 10
+  val_batch_size: 1
+  train_patch_size: 256
+  val_patch_size: 256
+  edge_decay: 0
+  only_h_flip: False
+  optimizer: 'adamw'
+  lr: 0.00002
+  epochs: 100
+  eval_freq: 1
+  num_workers: 4
+  no_autocast: True
+  train_data_dir: ''
+  val_data_dir: ''
+  weight_save_dir: 'weights'
+  log_dir: 'logs'
