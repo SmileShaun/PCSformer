@@ -19,6 +19,9 @@ cd loss/robust_loss_pytorch
 pip install -e .[dev]
 ```
 
+## Train
+Please first set 'train_data_dir' and 'val_data_dir' in ```config.py``` (This is the path to your own dataset), then ```python train.py```.
+
 ## Proposed Benchmarks
 
 ### Download Link
